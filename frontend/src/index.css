@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c2dedc;
+}
+.logo {
+  color: #116a7b;
+  text-align: center;
+  margin: 25px;
+  padding: 20px;
+}
+hr {
+  min-width: 70%;
+}
+.user_msg {
+  background-color: #116a7b;
+  color: white;
+  padding: 15px;
+  border-radius: 16px;
+  margin: 15px 3px;
+  width: 80%;
+}
+.logo span {
+  color: #c7a200;
+}
+.resField {
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  padding: 50px;
+  border-radius: 16px;
+}
+input {
+  background-color: #d3d3d380;
+  padding: 12px;
+  width: 80%;
+  color: rgb(0, 0, 0);
+  margin: 100px auto 0 auto;
+  display: flex;
+  border: none;
+  outline: none;
+  border-radius: 16px;
+  height: 80px;
+}
+input:focus {
+  border: #116a7b solid 1px;
+}
+
+p {
+  background-color: rgb(80, 195, 195);
+  width: 100%;
+  padding: 15px;
+  border-radius: 16px;
+  text-align: left;
+  margin: 15px;
+  color: white;
+}
+.hide {
+  visibility: hidden;
+  display: none;
+}
