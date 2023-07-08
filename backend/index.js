@@ -10,8 +10,8 @@ app.use(cors());
 
 //setup the openAi Config
 const configuration = new Configuration({
-  organization: "org-gNGh2t2WYIC9ERDLsocPHEI3",
-  apiKey: "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",
+  organization: "",
+  apiKey: "",
 });
 
 //pass the config to the openai
